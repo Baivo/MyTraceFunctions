@@ -34,7 +34,32 @@ MyTraceFunctions is an Azure Functions application that provides various HTTP-tr
     ```sh
     dotnet build
     ```
+# Environment Variables Setup
 
+To run the MyTraceFunctions project, you need to set the following environment variables:
+
+- `SQL_CONNECTION_STRING`
+- `AI_API_KEY`
+- `FUNCTIONS_CODE`
+
+### Instructions to Set Environment Variables
+
+1. **Open your terminal or command prompt.**
+
+2. **Set the SQL_CONNECTION_STRING variable:**
+    ```sh
+    export SQL_CONNECTION_STRING="your_sql_connection_string"
+    ```
+
+3. **Set the AI_API_KEY variable:**
+    ```sh
+    export AI_API_KEY="your_ai_api_key"
+    ```
+
+4. **Set the FUNCTIONS_CODE variable:**
+    ```sh
+    export FUNCTIONS_CODE="your_functions_code"
+    ```
 ## Usage
 Deploy the Azure Functions to your Azure account and use the provided HTTP endpoints to interact with the functions.
 
